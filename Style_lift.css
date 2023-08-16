@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+#container {
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.input-section {
+    text-align: center;
+    color: rebeccapurple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-section .inputs {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    height: 50;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+input {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+.floor {
+    box-shadow: -2px 0 0px 2px #000;
+    height: 200px;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.t {
+    background-color: rgba(224, 151, 15, 0.767);
+    border: solid 2px black;
+    border-radius: 15%;
+    position: absolute;
+    padding: 3px;
+    top: 50%;
+    left: 50px;
+}
+
+.t:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.lift {
+    background-color: antiquewhite;
+    border: solid 2px black;
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 2;
+    margin-left: 30px;
+    left: 150px;
+    transition: bottom 2.2s ease-in-out;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.doors {
+    margin: 1px;
+    background-color: rgb(44, 44, 114);
+    height: 100%;
+    width: 50%;
+    transition: transform 2.5s linear;
+}
+
+@media screen and (max-width: 0px) {
+    .input-section {
+        display: inline-block;
+    }
+}
