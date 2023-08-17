@@ -23,6 +23,6 @@ The Lift Simulator is an engaging and interactive project that simulates the mov
 
 1. Launch the simulator by typing index.html into your browser.
 
-2. Request the lift by clicking the "Up" or "Down" button on each floor.
+2. Request the lift by clicking the  button on each floor.
 
 3. Observe how the lift responds to requests and navigates between floors.
